@@ -1,8 +1,8 @@
 //
 
 function countDown(c) {
-    for (let i = c; i >= 0; i--) {
-        console.log(i);
+    while (c >= 0) {
+        console.log(c--);
     }
 }
 
